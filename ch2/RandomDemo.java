@@ -1,0 +1,9 @@
+package gr.aueb.cf.ch2;
+
+public class RandomDemo {
+    public static void main(String[] args) {
+        //int die = Math.random() * (max - min + 1) + min; // Δίνει τιμές από [min - max]
+        int die = (int) (Math.random() * 6) + 1;
+        System.out.println(die);
+    }
+}
