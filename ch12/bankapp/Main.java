@@ -8,7 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
         OverdraftAccount user = new OverdraftAccount("1234", "Vasilis", "Mytilinis", 1200.2);
-        JointAccount jointUsers = new JointAccount("5678", "Xatzis", "Thomas", "Vasilis", "Mytilinis", 2300.2);
+        JointAccount jointUsers = new JointAccount("5678", "Xaj.", "Tom.", "Vasilis", "Mytilinis", 2300.2);
         double withdrawal = 1300;
 //        double newBalance;
 
