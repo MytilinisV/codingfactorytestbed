@@ -1,16 +1,10 @@
 package gr.aueb.cf.ch12.bankapp.model;
 
 public final class OverdraftAccount {
-        private final String iban;
-        private final String firstname;
-        private final String lastname;
-        private double balance;
-
-    public OverdraftAccount(){
-        iban = "";
-        firstname = "";
-        lastname = "";
-    }
+    private final String iban;
+    private final String firstname;
+    private final String lastname;
+    private double balance;
 
     public OverdraftAccount(String iban, String firstname, String lastname, double balance) {
         this.iban = iban;
